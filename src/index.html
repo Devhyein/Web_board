@@ -5,6 +5,14 @@
     <title>Index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function click_add() {
+            window.open("addPopUp.html","addList","width=300,height=250,left=500,top=200");
+        }
+        function click_revise(){
+           location.href="index_revise.html";
+             }
+    </script>
 
 </head>
 <body>
@@ -22,16 +30,16 @@
                 <li><a href="board.html">백준</a></li>
                 <li><a href="board.html">한이음</a></li>
                 <li><a href="board.html">졸업작품</a></li>
-                <li><a href="board.html">게임 프로젝트</a></li>
+                <li><a href="board.html">게임프로젝트</a></li>
             </ul>
-            <button type="button" class="add_btn">추가</button>
-            <button type="button" class="revise_btn">수정</button>
+            <button type="button" class="add_btn" onclick="click_add()">추가</button>
+            <button type="button" class="revise_btn" onclick="click_revise()">수정</button>
         </div>
         <div class="card">
             <div id="card1">
-                <p>백준</p>
+                <p><a href="board.html">백준</a></p>
                 <ul>
-                    <li>Boj9007</li>
+                    <li><a href="read.html">Boj9007</a></li>
                     <li>Boj1042</li>
                     <li>Boj12042</li>
                 </ul>

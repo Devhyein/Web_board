@@ -60,6 +60,15 @@ a:link{
     position: relative;
     left:20px;
 }
+.click_cancel_btn, .click_complete_btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:70px;
+    height:25px;
+    border:none;
+    background-color: steelblue;
+
+}
 .card{
     width: 60%;
     float: left;

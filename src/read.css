@@ -78,9 +78,7 @@ a:link{
     height:30px;
     border:none;
     background-color: steelblue;
-    position: relative;
-    top:60px;
-    right: 150px;
+
 }
 .cancel_btn{
     color: white;
@@ -90,7 +88,5 @@ a:link{
     height:30px;
     border:none;
     background-color: steelblue;
-    position: relative;
-    top:60px;
-    right: 130px;
+
 }

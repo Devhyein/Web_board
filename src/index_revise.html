@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function click_complete() {
+            window.history.back();
+        }
+        function click_cancel(){
+            history.back();
+        }
+        function revise_name(){
+            var newName = prompt("새로운 이름을 입력하세요.");
+            var target = event.target || event.srcElement;
+            var clicked = target.className;
+            var span = document.getElementsByClassName('clicked');
+
+        }
+    </script>
+
+</head>
+<body>
+<header>
+    <div class="logo"><a href="index.html">#혜인이의 게시판</a></div>
+    <div class="search">
+        <input class="search_input" type="text">
+        <button type="submit" class="search_button"><img class="search_img" src="./img/search.png"></button>
+    </div>
+</header>
+<div style="width: 100%">
+    <div class="list">
+        <p class="list_title">게시판 목록</p>
+        <ul class="list_ul">
+            <li onclick="revise_name()" class="boj"><span class="boj">백준</span></li>
+            <li onclick="revise_name()" class="han"><span class="han">한이음</span></li>
+            <li onclick="revise_name()" class="cap"><span class="cap">졸업작품</span></li>
+            <li onclick="revise_name()" class="game"><span class="game">게임프로젝트</span></li>
+        </ul>
+        <button type="button" class="click_complete_btn" onclick="click_complete()">수정완료</button>
+        <button type="button" class="click_cancel_btn" onclick="click_cancel()">수정취소</button>
+    </div>
+    <div class="card">
+        <div id="card1">
+            <p>백준</p>
+            <ul>
+                <li>Boj9007</li>
+                <li>Boj1042</li>
+                <li>Boj12042</li>
+            </ul>
+        </div>
+        <div id="card2">
+            <p>한이음</p>
+            <ul>
+                <li>Boj9007</li>
+                <li>Boj1042</li>
+                <li>Boj12042</li>
+            </ul>
+        </div>
+        <div id="card3">
+            <p>졸업작품</p>
+            <ul>
+                <li>Boj9007</li>
+                <li>Boj1042</li>
+                <li>Boj12042</li>
+            </ul>
+        </div>
+        <div id="card4">
+            <p>게임 프로젝트</p>
+            <ul>
+                <li>Boj9007</li>
+                <li>Boj1042</li>
+                <li>Boj12042</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

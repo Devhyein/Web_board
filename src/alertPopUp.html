@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alertPopUp</title>
+    <style>
+        .ment{
+            font-family: Arial;
+            font-size: 18px;
+            text-align: center;
+            margin-top:15px;
+        }
+        .ok_btn{
+            float: right;
+            color: #FFFFFF;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width:55px;
+            height:25px;
+            border:none;
+            background-color: steelblue;
+            margin:15px;
+        }
+    </style>
+    <script>
+        function click_Ok() {
+            window.close();
+        }
+    </script>
+</head>
+<body onload="window.resizeTo(350,160)">
+    <div class="ment">수정을 완료하였습니다.</div>
+    <button class="ok_btn" onclick="click_Ok()">확인</button>
+</body>
+</html>
