@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Read</title>
+    <link rel="stylesheet" type="text/css" href="read.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function click_register(){
+            alert("수정을 완료하였습니다.");
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">#혜인이의 게시판</a></div>
+        <div class="search">
+            <input class="search_input" type="text">
+            <button type="submit" class="search_button"><img class="search_img" src="./img/search.png"></button>
+        </div>
+    </header>
+    <div class="read_page">
+        <div style="margin-bottom: 20px">
+            <div class="title">
+                <p class="title_p">제목</p>
+                <input type="text" class="title_text">
+            </div>
+            <div class="date">
+                <p class="date_p">작성일</p>
+                <input type="text" class="date_text">
+            </div>
+        </div>
+        <textarea class="content_text" placeholder="내용"></textarea>
+        <button class="register_btn" onclick="click_register()"><a href="board.html">수정</a></button>
+        <button class="cancel_btn"><a href="board.html">목록</a></button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+    margin:30px;
+    background-color: lightblue;
+}
+.logo{
+    text-decoration-style: double;
+    font-size: 40px ;
+    font-family: a도깨비;
+    color:black;
+}
+a:link{
+    text-decoration: none;
+}
+.search{
+    float: right;
+}
+
+.search_button{
+    position: relative;
+    top:10px;
+    width:30px;
+    height:30px;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+.search_img{
+    position: relative;
+    left:-10px;
+    top:-5px;
+    width:35px;
+    height:35px;
+    border:none;
+}
+.list{
+    width:30%;
+    position:absolute;
+    top:150px;
+    border: 1px solid steelblue;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list_title{
+    text-align: center;
+}
+.list_ul{
+    padding-top: 10px;
+}
+.list_ul li{
+    padding:10px;
+}
+.add_btn, .revise_btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:55px;
+    height:25px;
+    border:none;
+    background-color: steelblue;
+    position: relative;
+    left:20px;
+}
+.card{
+    width: 60%;
+    float: left;
+    position: relative;
+    left:300px;
+}
+#card1{
+    height:150px;
+    border: 1px solid steelblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top:100px;
+}
+#card2{
+    height:150px;
+    border: 1px solid steelblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top:-50px;
+    right:-300px;
+}
+#card3{
+    height:150px;
+    border: 1px solid steelblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top:-50px;
+}
+#card4{
+    height:150px;
+    border: 1px solid steelblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top:-200px;
+    right:-300px;
+}
+
+@media (max-width : 1024px){
+    .search{
+        width:auto;
+    }
+    .list{
+        width:auto;
+    }
+    .card{
+        width:auto;
+    }
+
+}
+@media (max-width: 480px){
+    .search{
+        width:auto;
+    }
+    .list{
+        width:auto;
+    }
+    .card{
+        width:auto;
+    }
+    #card1, #card2, #card3, #card4{
+        width:auto;
+    }
+}

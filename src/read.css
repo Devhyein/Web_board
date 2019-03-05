@@ -1,0 +1,96 @@
+body{
+    margin:30px;
+    background-color: lightblue;
+}
+.logo{
+    text-decoration-style: double;
+    font-size: 40px ;
+    font-family: a도깨비;
+}
+a:link{
+    text-decoration: none;
+}
+.search{
+    float: right;
+}
+.search_input{
+
+}
+.search_button{
+    position: relative;
+    top:10px;
+    width:30px;
+    height:30px;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+.search_img{
+    position: relative;
+    left:-10px;
+    top:-5px;
+    width:35px;
+    height:35px;
+    border:none;
+}
+.read_page{
+    width:100%;
+    position: relative;
+    top:100px;
+
+}
+
+.title_p{
+    display: inline-block;
+    font-family: a옛날사진관3;
+    font-size: 20px;
+    margin: 10px;
+}
+.title_text{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60%;
+    height: 25px;
+}
+
+.date_p{
+    display: inline-block;
+    font-family: a옛날사진관3;
+    font-size: 20px;
+    margin: 10px;
+}
+.date_text{
+    display: inline-block;
+
+    height:20px;
+}
+.content_text{
+    font-size: 20px;
+    width:80%;
+    height:400px;
+
+}
+.register_btn{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:60px;
+    height:30px;
+    border:none;
+    background-color: steelblue;
+    position: relative;
+    top:60px;
+    right: 150px;
+}
+.cancel_btn{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:60px;
+    height:30px;
+    border:none;
+    background-color: steelblue;
+    position: relative;
+    top:60px;
+    right: 130px;
+}

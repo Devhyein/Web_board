@@ -1,0 +1,63 @@
+body{
+    margin:30px;
+    background-color: lightblue;
+}
+.logo{
+    text-decoration-style: double;
+    font-size: 40px ;
+    font-family: a도깨비;
+}
+a:link{
+    text-decoration: none;
+}
+.search{
+    float: right;
+}
+.search_input{
+
+}
+.search_button{
+    position: relative;
+    top:10px;
+    width:30px;
+    height:30px;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+.search_img{
+    position: relative;
+    left:-10px;
+    top:-5px;
+    width:35px;
+    height:35px;
+    border:none;
+}
+.middle{
+    position: relative;
+    top:150px;
+}
+.board_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: a옛날사진관3;
+}
+table{
+    width:100%;
+    border:solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    height:30px;
+    border:solid 1px black;
+}
+.add_post{
+    float: right;
+    background-color: steelblue;
+    color: white;
+    border:none;
+    width: 100px;
+    height:30px;
+    margin-top: 10px;
+}
